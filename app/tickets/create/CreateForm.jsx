@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-export default function CreateFrom() {
+export default function CreateForm() {
   const router = useRouter();
 
   const [title,setTitle] =useState('')
